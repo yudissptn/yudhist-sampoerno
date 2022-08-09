@@ -1,0 +1,18 @@
+.about_container {
+  background: var(--background-secondary);
+  color: var(--text);
+  height: 700px;
+}
+
+.about_title {
+  padding-inline: 30rem;
+  padding-top: 5rem;
+  display: flex;
+  gap: 25px;
+  align-items: baseline;
+  z-index: 1;
+}
+
+.about_description {
+  max-width: 800px;
+}

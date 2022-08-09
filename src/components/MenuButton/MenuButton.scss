@@ -1,0 +1,23 @@
+.menu-main {
+  min-width: 42px;
+  padding: 0 20px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    hr {
+      background-color: var(--primary);
+    }
+  }
+}
+
+.menu-bar {
+  position: absolute;
+  background-color: var(--text);
+  width: 30px;
+  height: 3px;
+  transform-origin: left top;
+  margin: 0;
+  border: none;
+  border-radius: 12%;
+}
